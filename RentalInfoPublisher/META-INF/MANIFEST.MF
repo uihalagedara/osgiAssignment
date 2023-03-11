@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RentalInfoPublisher
+Bundle-SymbolicName: RentalInfoPublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: rentalinfopublisher.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: RentalInfoPublisher
+Import-Package: org.osgi.framework;version="1.3.0",
+ vehiclerentaldatabase
+Bundle-ActivationPolicy: lazy
+Export-Package: rentalinfopublisher
